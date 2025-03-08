@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.learnspanish">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.learnspanish"
+        tools:targetApi="31">
+
+        <!-- MainActivity: Главная активность -->
+        <activity
+            android:name="com.example.learnspanish.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- LoginActivity: Активность для входа -->
+        <activity
+            android:name="com.example.learnspanish.activities.LoginActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.learnspanish.activities.TestLanguageActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- RegisterActivity: Активность для регистрации -->
+        <activity
+            android:name="com.example.learnspanish.activities.RegisterActivity"
+            android:exported="true">
+        </activity>
+
+        <activity android:name="com.example.learnspanish.activities.TaskListActivity">
+            <!-- Add any intent filters if needed -->
+        </activity>
+        <activity
+        android:name="com.example.learnspanish.activities.TaskDisplayActivity"
+        android:exported="false">
+    </activity>
+        <!-- ResultActivity: Активность для показа результата -->
+        <activity
+            android:name="com.example.learnspanish.activities.ResultActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- MainMenuActivity: Активность для главного меню -->
+        <activity
+            android:name="com.example.learnspanish.activities.MainMenuActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- AccountActivity: Активность для аккаунта -->
+        <activity
+            android:name="com.example.learnspanish.activities.AccountActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- MinigamesActivity: Активность для миниигр -->
+        <activity
+            android:name="com.example.learnspanish.activities.MinigamesActivity"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".activities.QuizActivity" />
+        <activity android:name=".activities.ResActivity" />
+
+        <!-- DuelsActivity: Активность для дуэлей -->
+        <activity
+            android:name="com.example.learnspanish.activities.DuelsActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- StoreActivity: Активность для магазина -->
+        <activity
+            android:name="com.example.learnspanish.activities.StoreActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- LanguageLevelActivity: Активность для магазина -->
+        <activity
+            android:name="com.example.learnspanish.activities.LanguageLevelActivity"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

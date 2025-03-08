@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418655546311",
+    "project_id": "learnspanish-5c4a2",
+    "storage_bucket": "learnspanish-5c4a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418655546311:android:08832359442435c9b847e2",
+        "android_client_info": {
+          "package_name": "com.example.learnspanish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsmossBnz3UJbQj_TT6wE0nPwPD-3ZfAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

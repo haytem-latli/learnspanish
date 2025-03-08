@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz swój poziom języka lub wykonaj test wstępny"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wykonaj test wstępny"
+        android:layout_marginBottom="24dp"
+        style="@style/ButtonStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lub wybierz poziom ręcznie:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/levelA1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A1 - Początkujący"
+        android:layout_marginBottom="16dp"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/levelA2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A2 - Podstawowy"
+        android:layout_marginBottom="16dp"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/levelB1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B1 - Średniozaawansowany"
+        android:layout_marginBottom="16dp"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/levelB2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B2 - Wyższy średniozaawansowany"
+        android:layout_marginBottom="32dp"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powrót"
+        style="@style/ButtonStyle"/>
+
+</LinearLayout>
+

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Learn Spanish</string>
+    <string name="app_logo">Logo</string>
+    <string name="hint_login">Enter your email</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="hint_confirm_password">Enter your password</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Sign up</string>
+    <string name="register_link">Do not have an account? Sign up</string>
+    <string name="login_link">Already have an account? Login</string>
+
+    <string name="title_learning">Learning</string>
+    <string name="title_mini_games">Games</string>
+    <string name="title_duels">Deuls</string>
+    <string name="title_shop">Store</string>
+    <string name="main_title">Levels of learning</string>
+
+    <string-array name="main_topics">
+        <item>Animals</item>
+        <item>Food</item>
+        <item>Family and Friends</item>
+    </string-array>
+</resources>

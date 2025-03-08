@@ -1,0 +1,114 @@
+{
+  "quizzes": [
+    {
+      "title": "Basic Spanish Words",
+      "questions": [
+        {
+          "questionText": "What is 'Hello' in Spanish?",
+          "choices": ["Hola", "Adiós", "Gracias", "Por favor"],
+          "correctAnswer": 0
+        },
+        {
+          "questionText": "What is 'Thank you' in Spanish?",
+          "choices": ["Lo siento", "Gracias", "De nada", "Sí"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is 'Please' in Spanish?",
+          "choices": ["Bienvenido", "Perdón", "Por favor", "Hola"],
+          "correctAnswer": 2
+        },
+        {
+          "questionText": "How do you say 'Goodbye' in Spanish?",
+          "choices": ["Adiós", "Hola", "Gracias", "No"],
+          "correctAnswer": 0
+        },
+        {
+          "questionText": "What is 'Yes' in Spanish?",
+          "choices": ["No", "Sí", "Tal vez", "Nunca"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is 'No' in Spanish?",
+          "choices": ["Sí", "Quizás", "Nunca", "No"],
+          "correctAnswer": 3
+        },
+        {
+          "questionText": "How do you say 'Excuse me' in Spanish?",
+          "choices": ["Por favor", "Disculpe", "Gracias", "Hola"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is 'Good morning' in Spanish?",
+          "choices": ["Buenas noches", "Buenos días", "Buenas tardes", "Hola"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is 'Good night' in Spanish?",
+          "choices": ["Buenas noches", "Buenos días", "Buenas tardes", "Hola"],
+          "correctAnswer": 0
+        },
+        {
+          "questionText": "What is 'You're welcome' in Spanish?",
+          "choices": ["Por favor", "Gracias", "De nada", "Hola"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "title": "Common Spanish Verbs",
+      "questions": [
+        {
+          "questionText": "What is the Spanish verb for 'to eat'?",
+          "choices": ["Beber", "Comer", "Escribir", "Correr"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is the Spanish verb for 'to drink'?",
+          "choices": ["Leer", "Dormir", "Beber", "Cantar"],
+          "correctAnswer": 2
+        },
+        {
+          "questionText": "What is the Spanish verb for 'to run'?",
+          "choices": ["Saltar", "Correr", "Nadar", "Caminar"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "How do you say 'to write' in Spanish?",
+          "choices": ["Cocinar", "Leer", "Escribir", "Abrir"],
+          "correctAnswer": 2
+        },
+        {
+          "questionText": "How do you say 'to read' in Spanish?",
+          "choices": ["Escribir", "Leer", "Hablar", "Estudiar"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is the Spanish verb for 'to swim'?",
+          "choices": ["Saltar", "Nadar", "Correr", "Cantar"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is the Spanish verb for 'to sing'?",
+          "choices": ["Cantar", "Bailar", "Dibujar", "Saltar"],
+          "correctAnswer": 0
+        },
+        {
+          "questionText": "What is the Spanish verb for 'to study'?",
+          "choices": ["Leer", "Escribir", "Estudiar", "Dibujar"],
+          "correctAnswer": 2
+        },
+        {
+          "questionText": "How do you say 'to dance' in Spanish?",
+          "choices": ["Dibujar", "Bailar", "Caminar", "Cantar"],
+          "correctAnswer": 1
+        },
+        {
+          "questionText": "What is the Spanish verb for 'to open'?",
+          "choices": ["Cerrar", "Abrir", "Escribir", "Dormir"],
+          "correctAnswer": 1
+        }
+      ]
+    }
+  ]
+}
